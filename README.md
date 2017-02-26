@@ -24,9 +24,9 @@ To work with your own image:
 
 * Edit variable fn at the bottom of the source file with the path to your image file.
 
-* Launch the program. You should your image in the window with the sliders.
+* Launch the program. You should see your image in the window with the sliders.
 
-* Choose an area of the image that has two edges converging on the horizon.
+* Choose an area of the image that has two edges converging toward the horizon.
 Modify the red perspective box to model that convergence. 
 For robotics, that will typically be a trapezoid fitted between lane lines.
 As in my example. 
@@ -51,6 +51,10 @@ This is pre-alpha code with a minimum of error checking and potentially full of 
 I have found it useful for my exploration of this function.
 No further assurances are implied.
 
-The demo image was taken with the Pi Camera on the front of my robot. A corresponding ini file is included so the program launches with a reasonable conversion.
+The demo image was taken with the Pi Camera on the front of my robot
+at a DIY Robocars Meetup: 
+[Homepage](http://diyrobocars.com/),
+[Meetup](https://www.meetup.com/DIYRobocars/events/237116510/).
+A corresponding ini file is included so the program launches with a reasonable conversion.
 
 This has been tested using Python v2.7 and OpenCV v3.2 on OSX Sierra v10.12.3.
